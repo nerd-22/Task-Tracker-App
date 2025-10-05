@@ -22,6 +22,7 @@ button {
   color: white;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 li {
   margin-top: 8px;
@@ -32,7 +33,7 @@ li {
   justify-content: space-between;
   align-items: center;
 }
-.done {
+li.done span:first-child {
   text-decoration: line-through;
   color: gray;
 }
